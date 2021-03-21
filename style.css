@@ -1,17 +1,23 @@
 body {
     
-    background-color: rgb(169, 255, 241);
+    background-color: rgb(221, 248, 244);
     display: flex;
     justify-content: space-between;
   }
   
   .block1 {
-      
-  }
+    /* border: 1px solid grey; */
+    flex-basis: 45%;
+    text-align: center;
+    height: 100%;
+}
 
 
   .block2 {
-
+    /* border: 1px solid grey; */
+    flex-basis: 50%;
+    text-align: center;
+    height: 100vh;
   }
 
   h1 {
@@ -21,12 +27,8 @@ body {
     color:rgb(255, 102, 0)
   }
   
-  h2 {
-    margin: 1em 0 0.25em;
-  }
-  
-  h2:first-of-type {
-    margin-top: 0.5em;
+  .canvas {
+    font-size: 2em;
   }
   
   table,
@@ -41,11 +43,11 @@ body {
   }
   
   tr {
-    height: 20px;
+    height: 40px;
   }
   
   td {
-    width: 20px;
+    width: 40px;
   }
   
   input[type="number"] {
